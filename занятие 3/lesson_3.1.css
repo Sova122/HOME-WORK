@@ -1,0 +1,61 @@
+
+div h1  {
+   
+    border: black 7px solid ;
+    width: 500px;
+    height: 500px;
+    margin-block-start: 50px;
+    margin-inline-start: 410px;
+    background-color: bisque;
+    position: fixed;
+    
+}
+.days {
+    margin-inline-start: 35px;
+    word-spacing: 10px;
+}
+
+.week1 {
+    margin-inline-start: 170px;
+    word-spacing: 40px;
+}
+
+.week2 {
+    margin-inline-start: 52px;
+    word-spacing: 33px;
+}
+
+.week3 {
+    margin-inline-start: 39px;
+    word-spacing: 23px;
+}
+.week4 {
+    margin-inline-start: 39px;
+    word-spacing: 21px;
+}
+.week5 {
+    margin-inline-start: 35px;
+    word-spacing: 24px;
+}
+
+div p b i {
+    color:red;
+}
+
+body {
+    background-color: rgb(76, 116, 202);
+}
+ 
+ 
+ div p b strong  {
+    color: blue;
+    border: 5px black solid;
+    background-color: aquamarine;
+    
+}
+ .calendar {
+     padding-left: 170px;
+     margin-top: 40px;
+ }
+
+

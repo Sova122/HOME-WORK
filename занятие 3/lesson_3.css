@@ -1,0 +1,20 @@
+
+.bodybackground {
+    background-color: rgb(85, 104, 145);
+}
+
+.my {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 200%; 
+    width: 300px;
+    margin: 50px;
+    padding-inline-start: 540px;
+    
+}
+
+.i {
+    color: brown;
+}
+.p {
+    font-size: 30px;
+}
