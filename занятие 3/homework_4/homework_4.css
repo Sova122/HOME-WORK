@@ -1,0 +1,108 @@
+.menu1 {
+    background: #757272;
+    border: 1px solid goldenrod;
+    padding: 10px;
+    margin: 5px ;
+    box-sizing: border-box;
+    width: 1340px;
+    height: 120px;
+    float: left;
+}
+
+.punkt {
+    padding-left: 20px;
+}
+
+ .p1 {
+    background: #e4ecc0;
+    border: 1px solid goldenrod;
+    padding-top: 30px;
+    margin: 0px ;
+    box-sizing: border-box;
+    width: 255px;
+    height: 100px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.p2 {
+    background: #e4ecc0;
+    border: 1px solid goldenrod;
+    padding-top: 30px;
+    margin: 0px ;
+    box-sizing: border-box;
+    width: 255px;
+    height: 100px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.p3 {
+    background: #e4ecc0;
+    border: 1px solid goldenrod;
+    padding-top: 30px;
+    margin: 0px ;
+    box-sizing: border-box;
+    width: 255px;
+    height: 100px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.p4 {
+    background: #e4ecc0;
+    border: 1px solid goldenrod;
+    padding-top: 30px;
+    margin: 0px ;
+    box-sizing: border-box;
+    width: 255px;
+    height: 100px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.p5 {
+    background: #e4ecc0;
+    border: 1px solid goldenrod;
+    padding-top: 30px;
+    margin: 0px ;
+    box-sizing: border-box;
+    width: 255px;
+    height: 100px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.punkt div .a:visited {
+    color: rgb(179, 34, 41);
+}
+.punkt div .a:active {
+    color: rgb(38, 226, 195);
+}
+
+address:link { 
+    text-decoration: none;
+   } 
+   a:visited {
+        text-decoration: none; 
+    } 
+   a:active {
+         text-decoration: none; 
+        }
+  a:hover {
+    text-decoration: underline; 
+    color: red; 
+   } 

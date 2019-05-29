@@ -1,0 +1,71 @@
+.menu2 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 2px solid gray;
+}
+.p1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+    font-size: 50px;
+    font-weight: 700;
+     
+    
+    text-align: center;
+    /*text-decoration: blink - почему не сработало*/
+    /*text-transform: vertical-align - почему не сработало*/
+    background: rgb(115, 206, 138);
+    margin: 5px;
+}
+.p2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 5px;
+    
+    text-align: center;
+    /*text-decoration: blink - почему не сработало*/
+    /*text-transform: vertical-align - почему не сработало*/
+    background: rgb(115, 206, 138);
+    margin: 5px;
+}
+.p3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 5px;
+    
+    text-align: center;
+    /*text-decoration: blink - почему не сработало*/
+    /*text-transform: vertical-align - почему не сработало*/
+    background: rgb(115, 206, 138);
+    margin: 5px;
+}
+.p4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 5px;
+    
+    text-align: center;
+    /*text-decoration: blink - почему не сработало*/
+    /*text-transform: vertical-align - почему не сработало*/
+    background: rgb(115, 206, 138);
+
+}
+.p5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 5px;
+    
+    text-align: center;
+    /*text-decoration: blink - почему не сработало*/
+    /*text-transform: vertical-align - почему не сработало*/
+    background: rgb(115, 206, 138);
+
+}
