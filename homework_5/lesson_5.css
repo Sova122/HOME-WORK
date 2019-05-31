@@ -1,0 +1,96 @@
+
+    
+
+body {
+    background: url(img/фон.jpg) no-repeat;
+    background-size: cover;
+    position: fixed;}
+
+    #DATA {
+    position: relative;     }
+
+    #DATA1 {
+        position: relative; max-width: 200px; max-height: 200px;    }
+        #DATA2 {
+            position: static; max-width: 200px; max-height: 200px;     }
+            
+            #DATA3 {
+                position: relative;     }
+                #DATA4 {
+                    position: relative;     }
+                    #DATA5 {
+                        position: relative;     }
+                        #DATA6 {
+                            position: relative;     }
+                            #DATA7 {
+                                position: relative;     }
+                                #DATA8 {
+                                    position: relative;     }
+                                    #DATA9 {
+                                        position: relative;     }
+                                                                                                                                                                        
+.gumonoid {
+    max-height: 30%;
+    max-width: 25%;
+    position: fixed;}
+
+.zvezda {
+    max-height: 15%;
+    max-width: 7%;
+    display: inline-block;
+    position: fixed;
+    right: 40px;}
+
+.zemlia {
+    max-height: 25%;
+    max-width: 20%;
+    top: 40px;
+    right: 170px;
+    position: fixed;}
+
+.korabl {
+    max-height: 20%;
+    max-width: 10%;
+    left: 190px;
+    position: fixed;}    
+    
+.kosmonavt {
+    max-height: 30%;
+    max-width: 25%;
+    top: 250px;
+    right: 200px;
+    position: fixed;}
+    
+.mars {
+    max-height: 30%;
+    max-width: 25%;
+    top: 240px;
+    left: 160px;
+    position: fixed;}
+    
+.mesiac {
+    max-height: 15%;
+    max-width: 8%;
+    top: 300px;
+    right: 30px;;
+    position: fixed;}
+    
+.solnce {
+    max-height: 17%;
+    max-width: 10%;
+    top: 130px;
+    left: 250px;
+    position: fixed;}
+
+.sputnik {
+    max-height: 20%;
+    max-width: 15%;
+    top: 150px;
+    left: 400px;
+    position: fixed;}
+
+.planet {
+    max-height: 20%;
+    max-width: 15%;
+    top: 200px;
+    position: fixed;}
