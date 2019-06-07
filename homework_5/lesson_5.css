@@ -6,91 +6,74 @@ body {
     background-size: cover;
     position: fixed;}
 
-    #DATA {
-    position: relative;     }
+    #kosmos {
+    position: relative;  
+    max-width: 1000px;
+    max-height: 1000px;;  
+ }
 
-    #DATA1 {
-        position: relative; max-width: 200px; max-height: 200px;    }
-        #DATA2 {
-            position: static; max-width: 200px; max-height: 200px;     }
-            
-            #DATA3 {
-                position: relative;     }
-                #DATA4 {
-                    position: relative;     }
-                    #DATA5 {
-                        position: relative;     }
-                        #DATA6 {
-                            position: relative;     }
-                            #DATA7 {
-                                position: relative;     }
-                                #DATA8 {
-                                    position: relative;     }
-                                    #DATA9 {
-                                        position: relative;     }
                                                                                                                                                                         
 .gumonoid {
-    max-height: 30%;
-    max-width: 25%;
+    max-height: 90px;
+    max-width: 85px;
     position: fixed;}
 
 .zvezda {
     max-height: 15%;
     max-width: 7%;
-    display: inline-block;
     position: fixed;
     right: 40px;}
 
 .zemlia {
-    max-height: 25%;
-    max-width: 20%;
+    max-height: 90px;
+    max-width: 90px;
     top: 40px;
-    right: 170px;
-    position: fixed;}
+    left: 320px;
+    position: absolute;}
 
 .korabl {
     max-height: 20%;
     max-width: 10%;
     left: 190px;
-    position: fixed;}    
+    position: absolute;}    
     
 .kosmonavt {
     max-height: 30%;
     max-width: 25%;
     top: 250px;
     right: 200px;
-    position: fixed;}
+    position: absolute;}
     
 .mars {
     max-height: 30%;
     max-width: 25%;
     top: 240px;
     left: 160px;
-    position: fixed;}
+    position: absolute;}
     
 .mesiac {
     max-height: 15%;
     max-width: 8%;
     top: 300px;
     right: 30px;;
-    position: fixed;}
+    position: absolute;}
     
 .solnce {
     max-height: 17%;
     max-width: 10%;
     top: 130px;
     left: 250px;
-    position: fixed;}
+    position: absolute;;}
 
 .sputnik {
     max-height: 20%;
     max-width: 15%;
     top: 150px;
     left: 400px;
-    position: fixed;}
+    position: absolute;}
 
 .planet {
     max-height: 20%;
     max-width: 15%;
     top: 200px;
-    position: fixed;}
+    position: absolute;}
