@@ -1,127 +1,157 @@
 * {
-    box-sizing: border-box;}
+box-sizing: border-box;
+}
 
 body{
-background-color: bisque;}
+margin: 0;
+background-color: #15D6E4;
+}
 
 .wrapper{
-max-width: 1024px;
-margin: 0 auto;}
-
-img{
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin:50px 300px 20px 100px;
-    padding-top: 20px;}
+max-width:1024px;
+margin: 0;
+}
 
 .clear{
-clear: both;}
+clear: both;
+}
 
-.section.header{
-display: inline-block;
-text-align: center;}
+.header-top{
+margin: 50px auto;
+}
 
-.header span{
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-display: inline-block;
-font-size: 2em;
-font-weight: 700;
+#img-top{
+float: left;
+margin-left: 50px;
+border: 1px solid black;
+background:red;
+width: 120px;
+height: 120px;
+}
+
+#call-me{
+line-height: 150px;
 float: right;
-margin: 30px 20px;}
+font-weight: 800;
+text-decoration: underline;
+font-size:1.5em;
+color: black;
+margin-right: 50px;
+}
 
-    .header strong{
-    display: inline-block;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-right:500px;
-    margin-bottom: 20px;
-    margin-top: 0px;}
+ul{
+list-style: none;
+margin: 0 auto;
+margin-top: 10px;
+}
 
-    .form-header{
-    display: block;
-    margin-bottom: 110px; }
+a {
+text-decoration: none;
+text-align: center;
+}
 
-    .form-btn{
-    text-transform: uppercase;
-    float: left;
-    font-size: 17px;
-    font-weight: 800;
-    background-color: rgb(18, 17, 19,0.5);
-    width: 200px;
-    height: 50px;}
 
-    .side-menu{
-    margin: 40px auto;
-    display: inline-block;
-    float: left;}
+.menu1 a:hover {
+color: red;   
+}
 
-    li .side{
-    box-shadow: 0 0 5px rgba(0,0,0,0.5); 
-    background-color:whitesmoke;
-    text-transform: uppercase;
-    width: 250px;
-    height: 50px;
-    margin-top: 10px;}
+.menu2 a:hover{
+ color: red;
+}
+
+.menu1 a:active {
+    color: blue;
+    }
     
-    li .side:hover{
-    background-color: aliceblue;
-    color: #333333;}
-    
+.menu2 a:active {
+color: blue;
+}
 
-    .form-btn:hover{
-    background-color: aliceblue;
-    color: #333333;}
- 
- 
-    .form-btn:focus{
-    background-color: aliceblue;
-    color: #333333;}
-  
-    .content .section{
-        display: inline-block;
-       text-align: center;
-       margin-right: 200px;}
-     
-    
-     .content{
-    display: inline-block;
-    float: right;
-    margin-top: 40px;
-    text-align: center;
-    max-width: 800px;
-    max-height: 800px; }
-    
-    .content img{
-        height: 250px;
-        width: 500px;
-        display: inline-block;
-        border: 2px solid black;
-        padding-top: 0px;}
-    
-    h2,h3{
-    text-transform: uppercase;
-    display: inline-block;}
-   
-    ol{
-    text-transform: uppercase;
-    font-weight: 600;}
+.menu1 {
+list-style-type: none;
+margin-top: 20px;
+padding: 0;
+}
 
-    .center menu{
-    display: inline-block;}
+.menu1 li{
+float: left;
+}
 
-    main{
-    display: inline-block;
-    float: left;}
-   
+.menu1 li a{
+text-decoration: none;
+color: black;
+font-size:17px;
+display: block;
+line-height: 50px;
+height: 50px;
+text-transform: uppercase;
+font-weight: 700;
+border: 1.5px solid red;
+padding: 0 2px;
+margin: 0 1px;
+background-color: white;
+}
 
-    h3{
-   margin-right: 200px; }
+.menu2 {
+list-style-type: none;
+margin-top: 50px;
+padding: 0;
+float: left;
+display: block;
+text-align: center;
+max-width: 200px;
+}
 
-    h2{
-     margin-right: 200px;}
+.menu2 .menu-punkt2{
+border: 1.5px solid red;
+background-color: white;
+text-transform: uppercase;
+padding: 6px 4px;
+margin: 3px 1px;
+}
 
-    .footer{
-    display: block;
-    margin-left: 600px;
-    margin-top: 50px;}
+.menu2 a{
+color: black;
+font-weight: 700;
+}
+
+.content{
+float: left;
+max-width: 650px;
+margin-top: 33px;
+padding-left: 80px;
+}
+
+h1,h2{
+display: block;
+text-align: center;
+text-decoration: underline;
+}
+
+#info{
+font-weight: 900;
+font-size: 1.3em;
+}
+
+.text-img{
+width: 566px;
+height: 300px;
+border: 1.5px solid red;
+}
+
+.list-head{
+font-style: oblique;
+font-size: 30px;
+}
+
+#TTX{
+list-style:circle;
+}
+
+#end{
+display: block;
+margin: 70px 0px 30px 50px;
+float: left;
+font-weight: 700;
+background: white;
+}
