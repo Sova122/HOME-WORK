@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Chalet-ParisNineteenEighty';
+    src: url('font/Chalet-ParisNineteenEighty.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
 * {
 box-sizing: border-box;
 }
@@ -16,17 +24,18 @@ margin: 0;
 clear: both;
 }
 
-.header-top{
+.header-to{
 margin: 50px auto;
 }
 
 #img-top{
 float: left;
 margin-left: 50px;
+margin-top: 5px;
 border: 1px solid black;
 background:red;
 width: 120px;
-height: 120px;
+height: 130px;
 }
 
 #call-me{
@@ -126,6 +135,7 @@ h1,h2{
 display: block;
 text-align: center;
 text-decoration: underline;
+font-family: Chalet-ParisNineteenEighty, sans-serif;
 }
 
 .info{
