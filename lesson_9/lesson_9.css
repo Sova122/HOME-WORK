@@ -1,0 +1,29 @@
+
+.table{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+caption{
+    border: 1px solid black;
+
+}
+
+table{
+    border-collapse: collapse; 
+    
+}
+
+.b-bottom{
+    border-bottom:0 ;
+}
+
+.b-top{
+    border-top: 0;
+}
+
+
+td,tr,th,table{
+    border: 1px solid black;
+    padding: 0px ;
+}
