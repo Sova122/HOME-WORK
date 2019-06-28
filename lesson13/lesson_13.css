@@ -1,0 +1,16 @@
+
+.userinfo{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+em{
+    color: red;
+    margin-right: 3px;
+}
+
+legend strong{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}

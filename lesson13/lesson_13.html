@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>формы</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="lesson_13.css">
+</head>
+<body>
+    <div class="userinfo">
+        <form action="http://nickblack.pro/send.php" method="POST">
+            <fieldset>
+                <legend><strong>контакная информация</strong></legend>
+                <p><label for="fname"><strong>Имя:</strong><em>*</em></label><input type="text" id="fname" name="fname" required placeholder="введите ваше имя"></p>
+                <p><label for="lname">Фамилия:</label><input type="text" id="lname" name="lname" placeholder="введите вашу фамилию"></p>
+                <p><label for="age">Возраст:</label><input type="number" min="1" max="100" step="1"  id="age" name="age" placeholder="введите ваш возраст"></p>
+                <p><label for="mail">Почта:</label><input type="email"  id="mail" name="mail" placeholder="введите вашу почту"></p>
+                <p><label for="bday">Дата рождения:</label><input type="date"  id="bday" name="bday" placeholder="введите ваш возраст"></p>
+                <p><label for="phone"><strong>Конактный телефон:</strong><em>*</em></label><input type="phone"  id="phone" name="phone" required placeholder="введите ваш телефон"></p>
+                <p><label for="mymail"><strong>E-mail получателя</strong><em>*</em></label><input type="email" readonly value="sovka1227@gmail.com" id="mymail" name="mymail" required placeholder="введите ваш e-mail"></p>
+                <p><input type="submit" value="Отправить"></p>
+                
+            </fieldset> 
+        </form>
+    </div>  
+</body>
+</html>
