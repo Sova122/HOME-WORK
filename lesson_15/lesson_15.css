@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&subset=cyrillic');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #3e3b4a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;  
+}
+
+/* HEADER */
+
+#header{
+    padding: 70px 0 75px 0;
+}
+
+#header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header-menu{
+    display: flex;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header-menu .header-menu-click{
+    display: flex;
+    align-items:center;
+    padding-right: 12px;
+    color: #898691;
+    font-weight:800;
+    letter-spacing: .4em;
+}
+.header-logo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.header-logo-first-line{
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#fff;
+    padding-bottom: 12px;
+
+}
+
+.header-logo-second-line{
+    font-size: 10px;
+    color:#898691;
+}
+
+.header-search .header-search-icon{
+    display: flex;
+    align-items: center;
+    color:#898691;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: .1em;
+}   
+
+.header-search-icon-click{
+    padding-left: 6px; 
+}
+
+/*MAIN*/
+/*MAIN-LED*/
+
+.led{
+    background: url(img/lamp2.jpg) no-repeat center center;
+    position: relative;
+    height: 501px;
+   
+}
+
+.led-about{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 38px 0 38px 42px;
+  
+   
+}
+
+.led-home-name{
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffc7b0;
+    text-transform: uppercase;
+    letter-spacing:.2em;
+    margin-bottom: 10px;
+   
+}
+
+.led-title{
+   
+    margin: 0;
+    font-size: 72px;
+    font-weight: 700;
+    color:#fff;
+}
+
+.led-title-descr{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 60px;
+   
+}
+
+.readmore{
+    font-size: 14px;
+    font-weight: bold;
+    color:#fff;
+    border: 3px solid #ffe18f;
+    padding: 6px 8px;
+    box-sizing:border-box;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  
+}
+
+/*MAIN-ACCESORIES*/
+
+.main-accesories{
+    margin-bottom: 20px;
+}
+
+.accesories-subscribe{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin-top: 18px; 
+  
+}
+
+.main-accesories-about{
+    background: url(img/headphones.jpg) no-repeat center center;
+    position: relative;
+    padding: 35px 0 40px 40px;
+    flex-basis: 62%;
+    max-height: 484px; 
+    color: #fff;
+    
+
+   
+}
+
+.accesories-name{
+    color:#ffc7b0;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.accesories-name-item{
+    margin: 0;
+    padding-top: 22px;
+    font-size: 36px;
+    
+}
+
+.accesories-name-item-descr{
+    font-size: 24px;
+    margin-top: 25px;
+  
+}
+
+.main-subscribe{
+    background-color: #eb7b61;
+    flex-basis: 36%;
+    height: 484px;
+    padding: 76px 45px;
+       
+}
+
+.main-subscribe-title{
+    margin: 0;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: normal;
+
+}
+
+.main-subscribe-descr{
+    color: #fff;
+    padding-top: 5px;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+}
+
+input.mail{
+    margin-top: 40px;
+    text-align: center;
+    width: 95%;
+    background-color: #eb7b61;
+    border: 3px solid #ffd9d1;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+::placeholder{
+    color: #fff;
+}
+
+
+
+.subscribe{
+    background-color:#66689c;
+    margin-top: 18px;
+    width: 95%;
+    text-align: center;
+    padding: 12px 85px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 33px;
+
+}
+
+.main-subscribe-descr-privacy{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+
+}
+/*MAIN-photo-equip-items*/
+
+
+.main-photo-equip-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 54px;
+
+}
+
+.main-photo-equip-item1,.main-photo-equip-item2,.main-photo-equip-item3{
+    padding: 36px 0;
+    position: relative;
+
+}
+
+.main-photo-equip-item1{
+    background:url(img/bottom-left.jpg) no-repeat center center;
+    height: 420px;
+    flex-basis: 25.2%;
+
+}
+
+.main-photo-equip-item2{
+    background:url(img/bottom-centr.jpg) no-repeat center center;
+    height: 420px;
+    flex-basis: 25.2%;
+}
+
+.main-photo-equip-item3{
+    background:url(img/bottom-right.jpg) no-repeat center center;
+    height: 420px;
+    flex-basis: 44.7%;
+
+}
+
+.photo-equip-name{
+    color: #d9ab97;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: .2em;
+}
+.photo-equip-name-brand{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 800;
+    margin-top: 125px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.main-photo-equip-item3 .photo-equip-name{
+    text-align: left;
+    padding-left: 40px;
+
+}
+
+.main-photo-equip-item3 .photo-equip-name-brand{
+    text-align: left;
+    margin-top: 16px;
+    padding-left: 42px;
+    padding-bottom: 16px;
+}
+
+.main-photo-equip-item-descrt{
+    padding-left: 42px;
+    color: #fff;
+
+}
+
+.main-photo-equip-items .review{
+    background-color: #ffe18f;
+    color: #3d3c4a;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 8px 10px;
+    bottom: 10%;
+    left: 35%;
+ 
+
+}
+
+
+/*FOOTER*/
+
+#footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 68px;
+
+}
+
+.footer-copyright-name{
+    color: #898691;
+}
+
+.footer-web-soc-facebook{
+    padding-right: 22px;
+}
+
+
+/*ADAPTIVE*/
+
+
+@media(min-width:970px){
+
+    .main-subscribe{
+        padding-top: 30px;
+
+    }
+
+    .main-subscribe-descr{
+        font-size: 32px;
+    }
+
+    .main-subscribe-descr-privacy{
+        font-size: 18px;
+    }
+   
+}
+
+@media(min-width:320px) and (max-width:720px){
+    .main-accesories-about{
+        padding: 20px 0px 20px 22px;
+
+    }
+
+    .main-photo-equip-item1,.main-photo-equip-item2{
+        flex-basis: 50%;
+    }
+
+    .main-photo-equip-item3{
+        flex-basis: 100%;
+    }
+
+
+}
+
+
