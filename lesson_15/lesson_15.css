@@ -394,6 +394,7 @@ input.mail{
 
     .main-photo-equip-items{
         flex-basis: 100%;
+        flex-wrap: wrap;
         
     
     }
