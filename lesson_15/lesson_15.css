@@ -257,8 +257,8 @@ input.mail{
 
 .main-photo-equip-items{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    
     margin-bottom: 54px;
 
 }
@@ -267,6 +267,7 @@ input.mail{
     padding: 36px 0;
     position: relative;
     background-size: cover;
+    flex-grow: 1;
 
 }
 
@@ -274,6 +275,7 @@ input.mail{
     background:url(img/bottom-left.jpg) no-repeat center center;
     height: 420px;
     flex-basis: 49%;
+  
 
 }
 
@@ -281,6 +283,7 @@ input.mail{
     background:url(img/bottom-centr.jpg) no-repeat center center;
     height: 420px;
     flex-basis: 49%;
+ 
 
 }
 
@@ -299,6 +302,7 @@ input.mail{
     text-align: center;
     letter-spacing: .2em;
 }
+
 .photo-equip-name-brand{
     font-size: 26px;
     color: #fff;
@@ -383,17 +387,29 @@ input.mail{
 @media(min-width:320px) and (max-width:720px){
     .main-accesories-about{
         padding: 20px 0px 20px 22px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
 
     }
 
+
+    .main-photo-equip-items{
+        flex-basis: 100%;
+        
+    
+    }
+
+
     .main-photo-equip-item1,.main-photo-equip-item2{
+        flex-wrap: wrap;
         flex-grow: 1;
+        flex-basis: 32%;
+        margin-right: 10px;
     }
 
     .main-photo-equip-item3{
         flex-grow: 1;
-        margin-top: 10px;
+        flex-basis: 32%;
+     
     }
 
     .accesories-subscribe{
@@ -414,6 +430,7 @@ input.mail{
     }
      .main-subscribe{
          padding-left: 26px;
+         
                
         }
 
