@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+a {
+  text-decoration: none;  
+}
+
+
+
+/*HEADER*/
+
+#header{
+  padding: 27px 135px 27px 180px;
+  background-color: #4b96a1;
+}
+
+#header.wrapper{
+  display:flex;
+  justify-content: space-between;
+ 
+}
+
+
+.header-title-name-h3{
+  font-family: 'Cherry Swash', cursive;
+  font-size: 32px;
+  font-weight: normal;
+  color:#d9e6e8;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bullet {
+    width: 7px;
+    height:7px;
+    background-image: radial-gradient(#fff 0%, #fff 70%, transparent 70%);
+  }
+
+  .bullet:nth-child(3){
+    width: 7px;
+    height:7px;
+    background-image: radial-gradient(#69728c 0%, #69728c 70%, transparent 70%);
+  }
+  
