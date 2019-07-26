@@ -3,15 +3,24 @@
 // Первое задание
 
 let a = '1';
-if(a !== '1'){
-    console.log('Неверно');
-} else {
+
+if (a === '1') {
     console.log('Верно');
-} 
+} else {
+    console.log('Неверно');
+}
+
+a = 1;
+
+if (a === '1') {
+    console.log('Верно');
+} else {
+    console.log('Неверно');
+}
+
+
      
  
-
-
  // Второе задание
 
  let item = prompt('Чему равна переменная item?', '' );
@@ -49,40 +58,45 @@ let b = 11 ;
 console.log('Верно') : console.log('Неверно');
 
 
-// ПЯТОЕ ЗАДАНИЕ
+// Пятое задание
 
  let month = prompt(' Чтобы узнать время года введите текущий месяц от 1 до 12', '');
 
- //зима
-
  if( month >= 1 && month <= 2 ){
      alert('Текущие время года - зима, ');
- } else if(month == 12){
+} else if(month == 12){
     alert('Текущие время года - зима', '');
- }
-
-//весна
-
- if( month >= 3 && month <= 5 ){
+} else if( month >= 3 && month <= 5 ){
     alert('Текущие время года - весна', '');
-}
-
-//лето
-
-if( month >= 6 && month <= 8 ){
+} else if( month >= 6 && month <= 8 ){
     alert('Текущие время года - лето', '');
-}
-
-//осень
-
-if( month >= 9 && month <= 11 ){
+} else if( month >= 9 && month <= 11 ){
     alert('Текущие время года - осень', '');
-
-}
-//Ошибка
-
-
-if (month > 12 || month < 1){
+} else{
     alert ('Будьте внимательны при вводе числа!', '');
 }
+
+// Шестое задание
+
+
+
+let c = 0;
+
+while ( c < 100 ) {
+    if (c % 2 == 0 && c != 0) {
+        console.log(c);
+    }
+    c++;
+}
+
+
+for ( let i = 0; i < 100; i++ ) {
+    if (i % 2 == 0 && i != 0) {
+        console.log(i);
+    }
+    i++;
+}
+
+
  
+

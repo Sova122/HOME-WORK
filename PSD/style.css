@@ -20,7 +20,7 @@ a {
 
 /*HEADER*/
 
-#header{
+#header .wrapper{
   padding: 27px 135px 27px 180px;
   background-color: #4b96a1;
 }
@@ -41,7 +41,7 @@ a {
 }
 
 .header-menu-item{
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica LT Std';
   font-size: 14px;
   font-weight: 600;
   color: #d4dfe0;
@@ -58,7 +58,7 @@ a {
 /* MAIN */
 /* MAIN-SLIDER */
 
-.main-slider{
+.main-slider .wrapper{
   padding: 128px 382px 30px 328px;
   background: url(img/sea.jpg) no-repeat center center;
   position: relative;
@@ -70,7 +70,7 @@ a {
 }
 
 .main-slider-text{
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica LT Std';
   color:#e4e4e4;
   font-size:32px;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ a {
 }
 
 .readmore{
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica LT Std';
   font-size: 22px;
   letter-spacing: 0.07em;
   border-radius: 10px;
@@ -113,7 +113,7 @@ a {
    
   }
 
-  .bullet:nth-child(3){
+.bullet:nth-child(3){
   width: 7px;
   height:7px;
   background-image: radial-gradient(#69728c 0%, #69728c 70%, transparent 70%);
@@ -121,53 +121,83 @@ a {
 
   }
   
-  .main-custom-selection{
-    padding: 80px 210px ;
-    font-family: 'Helvetica Neue';
-    min-height: 444px;
+.main-custom-selection{
+  padding: 80px 210px ;
+  font-family: 'Helvetica LT Std';
+  min-height: 444px;
+  position: relative;
     
     
   }
 
-  .main-custom-selection .wrapper{
-    min-height: 444px;
 
-
+.custom-selection-text1{
+  font-weight: 300;
+	font-style: normal;
+  font-size: 22px;
+  color:#5d616c;
+  letter-spacing: 0.1em;
   }
 
-  .custom-selection-text1{
-    font-weight: 400;
-    font-size: 22px;
-    color:#5d616c;
-    letter-spacing: 0.1em;
-  }
-
-  .custom-selection-functional-icons{
-   
+  .custom-selection-text2{
+  font-weight: 300;
+	font-style:
   }
 
 
-
-  .custom-selection-functional-icons-basket{
-    background: url(img/basket.png) no-repeat center center;
-    position: relative;
-    background-size: cover;
+.custom-selection-functional-icons-basket{
+  background: url(img/basket.png);
+  background-size: cover;
+  position: relative;
+  
   
 
 
   }
 
-  .custom-selection-functional-icons-planet{
-    background: url(img/planet.png) no-repeat center center; 
-    position: relative;
-    background-size: cover;
+.custom-selection-functional-icons-planet{
+  background: url(img/planet.png) no-repeat center center; 
+  background-size: cover;
+  position: relative;
 
   }
 
-  .custom-selection-functional-icons-portfolio{
-    background: url(img/portfolio.png) no-repeat center center;
-    position: relative;
-    background-size: cover;
+.custom-selection-functional-icons-portfolio{
+  background: url(img/portfolio.png) no-repeat center center;
+  background-size: cover;
+  position: relative;
 
   }
 
+
+
+
+
+.main-quote-avtor-blocks{
+  background-color: #00d089;
+  min-height: 140px;
+
+
+
+ }
+
+.main-quote-text-block1{
+  font-family: 'Helvetica LT Std';
+  font-size:22px;
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+
+
+}
+
+
+  .main-quote-text-block2{
+  font-family: 'Helvetica LT Std';
+  font-size:334px;
+  color:rgba(228, 228, 228, .5);
+  
+  
+
+
+  }
