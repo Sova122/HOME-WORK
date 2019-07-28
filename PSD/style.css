@@ -122,7 +122,8 @@ a {
   }
   
 .main-custom-selection{
-  padding: 80px 210px ;
+  display: flex;
+  padding: 80px 210px;
   font-family: 'Helvetica LT Std';
   min-height: 444px;
   position: relative;
@@ -132,7 +133,12 @@ a {
 
 
 .custom-selection-text1{
+  margin-bottom: 35px;
+  font-family: 'Helvetica LT Std';
   font-weight: 300;
+  text-align: center;
+  color:#4c505d;
+  line-height: 38px;
 	font-style: normal;
   font-size: 22px;
   color:#5d616c;
@@ -141,43 +147,31 @@ a {
 
   .custom-selection-text2{
   font-weight: 300;
-	font-style:
+  text-align: center;
+  font-family: 'Helvetica LT Std';
+  line-height: 22px;
+  color:#4c505d;
+  
   }
 
-
-.custom-selection-functional-icons-basket{
-  background: url(img/basket.png);
-  background-size: cover;
-  position: relative;
+.custom-selection-functional-icons{
+  padding: 80px 428px 80px 425px;
   
-  
-
-
   }
 
 .custom-selection-functional-icons-planet{
-  background: url(img/planet.png) no-repeat center center; 
-  background-size: cover;
-  position: relative;
-
-  }
-
-.custom-selection-functional-icons-portfolio{
-  background: url(img/portfolio.png) no-repeat center center;
-  background-size: cover;
-  position: relative;
-
+  padding: 0 120px;
+  
   }
 
 
+/* main-quote*/
 
 
 
 .main-quote-avtor-blocks{
   background-color: #00d089;
   min-height: 140px;
-
-
 
  }
 
@@ -188,16 +182,13 @@ a {
   text-transform: uppercase;
  
 
-
 }
 
 
-  .main-quote-text-block2{
+.main-quote-text-block2{
   font-family: 'Helvetica LT Std';
   font-size:334px;
   color:rgba(228, 228, 228, .5);
   
   
-
-
   }
