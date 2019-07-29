@@ -54,7 +54,18 @@ for (let i = 0, j = arr3.length -1; i < j; i++, j--) {
     }
 
     console.log(arr3);
+/*
+    let arr3 = [1, 3, 5, 6, 7, 9];
 
+    for (let i = 0, j = arr3.length -1; i < j; i++, j--) {
+       
+        arr3[i] = arr3[j];
+        arr3[j] = arr3[i];
+        }
+    
+        console.log(arr3);
+
+*/
 
 // Четвертое задание
 
@@ -80,5 +91,5 @@ let obj2 = {
         'article-teapot': {'price':550, 'weight': 2000},
         'article-сup': {'price':150, 'weight': 400}
     } 
-}
+};
   
