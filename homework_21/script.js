@@ -72,7 +72,7 @@ let obj2 = {
     'Name': 'Ludmila',
     'Phone': 777,
     'Address': 's.Rublivka, Polt.region',
-    'Tota  order': 830,
+    'Total  order': 830,
     'Total order weight': 2700,
     'Purchased goods': {
         'article-cap': {'price': 100, 'weight': 200},
