@@ -171,21 +171,19 @@ a {
 
 .main-quote .wrapper{
   display: flex;
+  flex-direction: column;
   background-color: #00d089;
-  padding: 95px 400px 95px 212px;
+  padding: 95px 160px 95px 205px;
   height: 470px;
   
-
 
 } 
  
 .main-quote-avtor-blocks{
   display: flex;
- 
-
-
+  padding-left: 363px;
+  
 }
-
 
 .main-quote-avtor-img{
   height: 145px;
@@ -196,9 +194,8 @@ a {
 .main-quote-avtor-name{ 
   display: flex;
   flex-direction: column;
-  margin-left: 35px;
+  height: 190px;
 
-  
 }
 
 .main-quote-text-block1{
@@ -207,7 +204,8 @@ a {
   font-weight: bold;
   color:rgba(228, 228, 228);
   text-transform: uppercase;
-  margin: 0 auto;
+  margin-left: 30px;
+
   
 
 }
@@ -216,11 +214,65 @@ a {
   font-family: 'Helvetica LT Std';
   font-size:334px;
   color:rgba(228, 228, 228, .5);
-  margin: 0 auto;
-  
- 
-  
+  height:100px;
+  line-height: .7em;
+  margin-left: 12px;
  
 }
 
+.main-quote-text-block3{
+  font-family: 'Helvetica LT Std';
+  font-size: 16px;
+  font-weight: 400;
+  color:rgba(228, 228, 228);
+  line-height: 1.6em;
+  padding-left: 75px;
 
+  
+}
+
+/*Main-check-in*/ 
+
+.main-check-in .wrapper{
+  height: 515px;
+  background: url(img/map.jpg) center center no-repeat;
+  position: relative;
+  background-size: cover;
+  
+
+
+}
+
+.main-check-in-form-circle{
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  left: 33%;
+  bottom: 5%;
+ 
+
+
+}
+
+.main-check-in-form{
+  
+}
+
+/*Footer*/
+
+#footer .wrapper{
+    height: 40px;
+    padding: 12px 0px 16px 0px;
+    background: #00d089;
+
+}
+
+.footer-copyright{
+  font-family: 'Helvetica LT Std';
+  font-size: 12px;
+  text-transform: uppercase;
+  color:#d1f3e3;
+  text-align: center;
+}
+
+    
