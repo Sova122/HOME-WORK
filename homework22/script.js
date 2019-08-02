@@ -16,19 +16,31 @@ let i = newArr1.map(function(number){
 console.log(i);
 
 
-// Второе задание
+// Второе задание 
 
 
-let arr2 = [4, 3, 5, 5, 0, 4, 8, 6];
+// let arr2 = [4, 3, 5, 5, 0, 4, 8, 6];
 
-let a = arr2.reduce(function(accum, currentValue){
+// let a = arr2.reduce(function(accum, currentValue){
       
-      let b = accum + currentValue;
+//       let b = accum + currentValue;
 
-      if ( b == b++ ){
-         console.log(a);
-      }
+//    // ??????   if ( b == b+ ){
+//          console.log(a);
+//       }
   
-});
+// );
     
     
+
+// Третье задание
+
+
+function summArguments() {
+   arguments.reduce = [].reduce;
+   return arguments.reduce(function(a, b) {
+     return a + b;
+   });
+ }
+ 
+   console.log( summArguments(8, 15, 3, 6) ); 
