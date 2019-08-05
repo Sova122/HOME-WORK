@@ -20,17 +20,14 @@ a {
 
 /*HEADER*/
 
-#header .wrapper{
+.header-content{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
   padding: 27px 135px 27px 180px;
   background-color: #4b96a1;
 }
 
-#header .wrapper{
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
- 
-}
 
 .header-title-name-h3{
   font-family: 'Cherry Swash', cursive;
@@ -41,43 +38,59 @@ a {
 }
 
 .header-menu-item{
+  position: relative;
+  display: inline-flex;
   font-family: 'Helvetica LT Std';
   font-size: 14px;
   font-weight: 600;
   color: #d4dfe0;
   text-transform: uppercase;
-  margin-top: 40px;
+  padding: 0px 22px;
+ 
   
 }
+.header-menu:nth-last-child(4){
+  padding-right: 0px;
+}
 
-.header-menu-item-slash{
-  padding: 0 22px;
+
+.border{
+  display: inline-block;
+  height: 11px;
+  width: 5px;
+  border-right: 1px solid #d4dfe0;
+  transform: rotate(30deg);
+  
+ 
 }
 
 
 /* MAIN */
 /* MAIN-SLIDER */
 
-.main-slider .wrapper{
-  padding: 128px 382px 80px 328px;
+.main-slider-content{
+  padding: 125px 375px 80px 328px;
   background: url(img/sea.jpg) no-repeat center center;
   position: relative;
   background-size: cover;
-  min-height: 475px;
+  height: 475px;
   display: flex;
   flex-direction: column;
+  align-content: center;
+  align-items: center;
   
 }
 
 .main-slider-text{
   font-family: 'Helvetica LT Std';
   color:#e4e4e4;
-  font-size:32px;
+  font-size:36px;
   text-transform: uppercase;
-  text-align:center;
+  text-align: center;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bolder;
   letter-spacing: 0.1em;
+  line-height: 1.4;
 
 }
 
@@ -86,22 +99,22 @@ a {
   font-size: 22px;
   letter-spacing: 0.07em;
   border-radius: 10px;
-  font-weight: 400;
-  color:#fff;
-  border: 3px solid #e4e4e4;
+  font-weight: 300;
+  color: #e4e4e4;
+  border: 3px solid #afb1b4;
   padding: 11px 41px 11px 47px;
   box-sizing:border-box;
   position: absolute;
-  bottom: 158px;
-  left: 520px;
+  bottom: 36%;
+  left: 40.5%;
 
 }
 
 .main-slider-bullet{
   display: flex;
   position: absolute;
-  bottom: 30px;
-  left: 575px;
+  bottom: 5%;
+  left: 45%;
 
 }
 
@@ -120,10 +133,17 @@ a {
   margin: 0 6px;
 
   }
-  
-.main-custom-selection{
+
+
+  /* main-custom-selection */
+
+
+  .main-custom-selection-content{
   display: flex;
-  padding: 80px 210px 0px 210px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 80px 205px 0px 202px;
   font-family: 'Helvetica LT Std';
   min-height: 444px;
   position: relative;
@@ -133,14 +153,14 @@ a {
 
 
 .custom-selection-text1{
+  text-align: center;
   margin-bottom: 35px;
   font-family: 'Helvetica LT Std';
   font-weight: 300;
-  text-align: center;
   color:#4c505d;
   line-height: 38px;
 	font-style: normal;
-  font-size: 22px;
+  font-size: 25px;
   color:#5d616c;
   letter-spacing: 0.1em;
   }
@@ -155,6 +175,8 @@ a {
   }
 
 .custom-selection-functional-icons{
+  display: flex;
+  justify-content: center;
   padding: 80px 428px 80px 425px;
   
   }
@@ -165,13 +187,14 @@ a {
   }
 
 
-/* main-quote*/  
+/* main-citation*/  
 
  
 
-.main-quote .wrapper{
+.main-citation-content{
   display: flex;
   flex-direction: column;
+  align-content: center;
   background-color: #00d089;
   padding: 95px 160px 95px 205px;
   height: 470px;
@@ -179,61 +202,63 @@ a {
 
 } 
  
-.main-quote-avtor-blocks{
+.main-citation-avtor-blocks{
+  position: relative;
   display: flex;
-  padding-left: 363px;
+  align-content: center;
+  align-items: center;
+
   
 }
 
-.main-quote-avtor-img{
-  height: 145px;
- 
-}
-
-
-.main-quote-avtor-name{ 
-  display: flex;
-  flex-direction: column;
-  height: 190px;
-
-}
-
-.main-quote-text-block1{
+.main-citation-avtor-name{
   font-family: 'Helvetica LT Std';
   font-size: 22px;
   font-weight: bold;
   color:rgba(228, 228, 228);
   text-transform: uppercase;
-  margin-left: 30px;
-
-  
-
-}
-
-.main-quote-text-block2{
-  font-family: 'Helvetica LT Std';
-  font-size:334px;
-  color:rgba(228, 228, 228, .5);
-  height:100px;
-  line-height: .7em;
-  margin-left: 12px;
+  padding-left: 60%;
+  padding-top: 1%;
  
 }
 
-.main-quote-text-block3{
+
+.main-citation-avtor-name::after{
+  content: url(img/PicsArt_07-29-04.07.00.png);
+  position: absolute;
+  top: 9%;
+  left: 42%;
+
+
+
+}
+
+
+.main-citation-avtor-name::before{
+  content: url(img/quote.png);
+  position: absolute;
+  opacity: .4;
+  top: -129%;
+  left: 47%;
+  
+  
+}
+
+.main-quote-text{
   font-family: 'Helvetica LT Std';
   font-size: 16px;
   font-weight: 400;
   color:rgba(228, 228, 228);
   line-height: 1.6em;
-  padding-left: 75px;
+  padding-left: 160px;
+  margin-top: 165px;
 
   
 }
 
 /*Main-check-in*/ 
 
-.main-check-in .wrapper{
+.main-check-in-content{
   height: 515px;
   background: url(img/map.jpg) center center no-repeat;
   position: relative;
@@ -243,31 +268,67 @@ a {
 
 }
 
-.main-check-in-form-circle{
+.main-check-in-form{
   position: absolute;
   width: 430px;
   height: 430px;
   left: 33%;
-  bottom: 5%;
- 
+  bottom: 8%;
+  background: rgba(255, 255, 255, .8);
+  border-radius: 50%;
 
 
 }
 
-.main-check-in-form{
+.main-check-in-form-input{
+  position: absolute;
+  left: 18%;
+  bottom: 34%;
+  font-family: 'Helvetica LT Std';
+  font-size: 12px;
+
+ 
   
 }
+.form-name{
+  width: 275px;
+  height: 32px;
+  margin-bottom: 12px;
+  padding-left: 14px;
+  opacity: .4;
+}
+
+.form-mail{
+  width: 275px;
+  height: 32px;
+  margin-bottom: 12px;
+  padding-left: 14px;
+  opacity: .4;
+}
+
+.form-message{
+  width: 275px;
+  height: 80px;
+  padding-left: 14px;
+  opacity: .4;
+}
+
+.check-ok{
+  position: absolute;
+  left: 31%;
+  bottom: -58%;
+ 
+}
+
+
 
 /*Footer*/
 
-#footer .wrapper{
-    height: 40px;
-    padding: 12px 0px 16px 0px;
-    background: #00d089;
-
-}
 
 .footer-copyright{
+  height: 40px;
+  padding: 12px 0px 16px 0px;
+  background: #00d089;
   font-family: 'Helvetica LT Std';
   font-size: 12px;
   text-transform: uppercase;
@@ -275,4 +336,51 @@ a {
   text-align: center;
 }
 
+
+/*ADAPTIVE*/
+
+@media (max-width:1120px){
+  .header-content {
+    padding: 25px 60px 27px 80px;
+  }
+
+  .header-title-name-h3{
+    font-size: 22px; 
+  }
+  .main-slider-text{
+    font-size: 22px;
+  }
+
+  .main-slider-content{
+    padding: 80px 200px 50px 200px;
+  }
+
+  .main-quote-text{
+    line-height: 1em;
+    padding-left: 50px;
+
+}
+
+.main-citation-content{
+  justify-content: flex-start;
+  
+
+} 
+
+.readmore{
+
+  left: 49%;
+  margin-left: -12.5%;
+}
+
+}
+
+
+
+
+@media (max-width:700px){
+  div.border{
+    display: none;
     
+  }
+}
