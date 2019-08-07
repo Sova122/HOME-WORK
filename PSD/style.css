@@ -197,7 +197,7 @@ a {
   align-content: center;
   background-color: #00d089;
   padding: 95px 160px 95px 205px;
-  height: 470px;
+ 
   
 
 } 
@@ -212,6 +212,7 @@ a {
 }
 
 .main-citation-avtor-name{
+  position: relative;
   font-family: 'Helvetica LT Std';
   font-size: 22px;
   font-weight: bold;
@@ -227,7 +228,7 @@ a {
   content: url(img/PicsArt_07-29-04.07.00.png);
   position: absolute;
   top: 9%;
-  left: 42%;
+  left: 60%;
 
 
 
@@ -238,8 +239,8 @@ a {
   content: url(img/quote.png);
   position: absolute;
   opacity: .4;
-  top: -129%;
-  left: 47%;
+  top: -118.5%;
+  left: 69%;
   
   
 }
@@ -339,7 +340,7 @@ a {
 
 /*ADAPTIVE*/
 
-@media (max-width:1120px){
+@media (max-width:1130px){
   .header-content {
     padding: 25px 60px 27px 80px;
   }
@@ -352,7 +353,7 @@ a {
   }
 
   .main-slider-content{
-    padding: 80px 200px 50px 200px;
+    padding: 100px 200px 50px 200px;
   }
 
   .main-quote-text{
@@ -361,20 +362,20 @@ a {
 
 }
 
-.main-citation-content{
-  justify-content: flex-start;
-  
-
-} 
 
 .readmore{
 
-  left: 49%;
-  margin-left: -12.5%;
+  left: 43%;
+  padding: 6px 23px 7px 17px;
 }
 
-}
+.main-citation-content{
+  padding-left: 79px;
 
+}
+.main-citation-avtor-name{
+  padding-left: 63%;
+}
 
 
 
@@ -383,4 +384,3 @@ a {
     display: none;
     
   }
-}
